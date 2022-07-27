@@ -169,6 +169,12 @@ const theme = {
       lineHeight: 16,
       fontFamily: "Satoshi-Black",
     },
+    boldDisplay: {
+      fontWeight: "900",
+      fontSize: 40,
+      lineHeight: 64,
+      fontFamily: "Satoshi-Black",
+    },
     boldHeading1: {
       fontWeight: "900",
       fontSize: 32,
@@ -209,6 +215,12 @@ const theme = {
       fontWeight: "500",
       fontSize: 14,
       lineHeight: 16,
+      fontFamily: "Satoshi-Medium",
+    },
+    regularDisplay: {
+      fontWeight: "500",
+      fontSize: 40,
+      lineHeight: 64,
       fontFamily: "Satoshi-Medium",
     },
     regularHeading1: {
@@ -253,6 +265,12 @@ const theme = {
       lineHeight: 16,
       fontFamily: "Satoshi-Bold",
     },
+    semiboldDisplay: {
+      fontWeight: "700",
+      fontSize: 40,
+      lineHeight: 64,
+      fontFamily: "Satoshi-Bold",
+    },
     semiboldHeading1: {
       fontWeight: "700",
       fontSize: 32,
@@ -283,10 +301,14 @@ const theme = {
     dayModeBase: "#e0dde4",
     dayModeElevation: "#f2f2f2",
     dayModeLabel: "#0d0a0f",
-    nightModeAccent: "#9933ff",
-    nightModeBase: "#0d0a0f",
-    nightModeElevation: "#1a141f",
+    nightModeAccent: "#bea3f5",
+    nightModeBase: "#0c0b0e",
+    nightModeElevation: "#141216",
+    nightModeError: "#ec8c79",
+    nightModeInfo: "#d9baf7",
     nightModeLabel: "#f2f2f2",
+    nightModeSuccess: "#baf7c9",
+    nightModeWarning: "#f9ef86",
   },
   vector: {
     iconAlarm: assetIconAlarm,
